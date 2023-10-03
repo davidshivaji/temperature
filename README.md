@@ -6,6 +6,7 @@ Basic weather table reading from csv.
 ## Setup
 ```
 git clone git@github.com:davidshivaji/temperature.git
+cd temperature
 ```
 ```
 cd backend
@@ -18,4 +19,4 @@ cd frontend
 npm i
 npm start
 ```
-Load [](http://localhost:3000/)http://localhost:3000/ in your browser.
+Load [](http://localhost:3000/)http://localhost:3000/ in a browser.
