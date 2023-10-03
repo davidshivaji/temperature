@@ -5,6 +5,10 @@ import csv from 'csv-parser';
 const app = express();
 const port = 3003;
 
+const cors = require('cors');
+
+app.use(cors());
+
 app.get('/', (req, res) => {
   const results: any[] = [];
   
